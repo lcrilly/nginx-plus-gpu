@@ -35,5 +35,5 @@ curl -s http://localhost:8999/metrics | grep nv_inference_queue_duration_us
 ab -q -n 2000 -c 24 http://127.0.0.1:8999/
 ```
 
-4. Open the [NGINX Plus dashboard](http://localhost:8999/dashboard.html) to the upstream tab
+4. Open the [NGINX Plus dashboard](http://localhost:8888/dashboard.html) to the upstream tab
    and watch the backend server weights/status change 
