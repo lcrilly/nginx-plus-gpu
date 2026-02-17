@@ -1,0 +1,118 @@
+# HELP nv_inference_request_success Number of successful inference requests
+# TYPE nv_inference_request_success counter
+nv_inference_request_success{model="resnet50",instance="resnet50_0"} 15234
+
+# HELP nv_inference_request_failure Number of failed inference requests
+# TYPE nv_inference_request_failure counter
+nv_inference_request_failure{model="resnet50",instance="resnet50_0",reason="inference_failure"} 12
+
+# HELP nv_inference_count Number of inferences performed
+# TYPE nv_inference_count counter
+nv_inference_count{model="resnet50",instance="resnet50_0"} 304680
+
+# HELP nv_inference_exec_count Number of inference batch executions
+# TYPE nv_inference_exec_count counter
+nv_inference_exec_count{model="resnet50",instance="resnet50_0"} 27840
+
+# HELP nv_inference_queue_duration_us Cumulative time requests spend in the scheduler queue in microseconds
+# TYPE nv_inference_queue_duration_us counter
+nv_inference_queue_duration_us{model="resnet50",instance="resnet50_0"} __QUEUEDURATION__.3333334e+08
+
+# HELP nv_inference_compute_input_duration_us Cumulative time requests spend processing inference inputs in microseconds
+# TYPE nv_inference_compute_input_duration_us counter
+nv_inference_compute_input_duration_us{model="resnet50",instance="resnet50_0"} 4.1123456e+09
+
+# HELP nv_inference_compute_duration_us Cumulative time requests spend executing the inference model in microseconds
+# TYPE nv_inference_compute_duration_us counter
+nv_inference_compute_duration_us{model="resnet50",instance="resnet50_0"} 1.22104567e+10
+
+# HELP nv_inference_compute_output_duration_us Cumulative time requests spend processing inference outputs in microseconds
+# TYPE nv_inference_compute_output_duration_us counter
+nv_inference_compute_output_duration_us{model="resnet50",instance="resnet50_0"} 3.5678901e+09
+
+# HELP nv_inference_request_duration_us Cumulative end-to-end inference request handling time in microseconds
+# TYPE nv_inference_request_duration_us counter
+nv_inference_request_duration_us{model="resnet50",instance="resnet50_0"} 2.82448573e+10
+
+# HELP nv_inference_queue_duration_us Summary of scheduler queue durations in microseconds
+# TYPE nv_inference_queue_duration_us summary
+nv_inference_queue_duration_us{model="resnet50",instance="resnet50_0",quantile="0.5"} 420
+nv_inference_queue_duration_us{model="resnet50",instance="resnet50_0",quantile="0.9"} 760
+nv_inference_queue_duration_us{model="resnet50",instance="resnet50_0",quantile="0.95"} 980
+nv_inference_queue_duration_us{model="resnet50",instance="resnet50_0",quantile="0.99"} 1500
+nv_inference_queue_duration_us_sum{model="resnet50",instance="resnet50_0"} 8.3472612e+09
+nv_inference_queue_duration_us_count{model="resnet50",instance="resnet50_0"} 15246
+
+# HELP nv_inference_compute_duration_us Summary of model compute times in microseconds
+# TYPE nv_inference_compute_duration_us summary
+nv_inference_compute_duration_us{model="resnet50",instance="resnet50_0",quantile="0.5"} 950
+nv_inference_compute_duration_us{model="resnet50",instance="resnet50_0",quantile="0.9"} 1350
+nv_inference_compute_duration_us{model="resnet50",instance="resnet50_0",quantile="0.95"} 1550
+nv_inference_compute_duration_us{model="resnet50",instance="resnet50_0",quantile="0.99"} 2100
+nv_inference_compute_duration_us_sum{model="resnet50",instance="resnet50_0"} 1.22104567e+10
+nv_inference_compute_duration_us_count{model="resnet50",instance="resnet50_0"} 15246
+
+# HELP nv_inference_request_duration_us Summary of end-to-end request latencies in microseconds
+# TYPE nv_inference_request_duration_us summary
+nv_inference_request_duration_us{model="resnet50",instance="resnet50_0",quantile="0.5"} 1650
+nv_inference_request_duration_us{model="resnet50",instance="resnet50_0",quantile="0.9"} 2450
+nv_inference_request_duration_us{model="resnet50",instance="resnet50_0",quantile="0.95"} 2800
+nv_inference_request_duration_us{model="resnet50",instance="resnet50_0",quantile="0.99"} 3600
+nv_inference_request_duration_us_sum{model="resnet50",instance="resnet50_0"} 2.82448573e+10
+nv_inference_request_duration_us_count{model="resnet50",instance="resnet50_0"} 15246
+
+# HELP nv_gpu_utilization GPU utilization rate (0.0 - 1.0)
+# TYPE nv_gpu_utilization gauge
+nv_gpu_utilization{gpu_uuid="GPU-12345678-1234-5678-9abc-def012345678",gpu="0"} 0.73
+
+# HELP nv_gpu_memory_total_bytes Total GPU memory in bytes
+# TYPE nv_gpu_memory_total_bytes gauge
+nv_gpu_memory_total_bytes{gpu_uuid="GPU-12345678-1234-5678-9abc-def012345678",gpu="0"} 1.7089931264e+10
+
+# HELP nv_gpu_memory_used_bytes Used GPU memory in bytes
+# TYPE nv_gpu_memory_used_bytes gauge
+nv_gpu_memory_used_bytes{gpu_uuid="GPU-12345678-1234-5678-9abc-def012345678",gpu="0"} 8.53498368e+09
+
+# HELP nv_cpu_utilization CPU utilization rate (0.0 - 1.0)
+# TYPE nv_cpu_utilization gauge
+nv_cpu_utilization 0.56
+
+# HELP nv_cpu_memory_total_bytes Total CPU memory (RAM) in bytes
+# TYPE nv_cpu_memory_total_bytes gauge
+nv_cpu_memory_total_bytes 6.84079104e+10
+
+# HELP nv_cpu_memory_used_bytes Used CPU memory (RAM) in bytes
+# TYPE nv_cpu_memory_used_bytes gauge
+nv_cpu_memory_used_bytes 3.1029248e+10
+
+# HELP nv_cache_num_hits Number of response cache hits
+# TYPE nv_cache_num_hits counter
+nv_cache_num_hits{model="resnet50"} 9876
+
+# HELP nv_cache_num_misses Number of response cache misses
+# TYPE nv_cache_num_misses counter
+nv_cache_num_misses{model="resnet50"} 512
+
+# HELP nv_cache_hit_duration_us Cumulative time spent serving cache hits in microseconds
+# TYPE nv_cache_hit_duration_us counter
+nv_cache_hit_duration_us{model="resnet50"} 1.2345678e+08
+
+# HELP nv_cache_miss_duration_us Cumulative time spent handling cache misses in microseconds
+# TYPE nv_cache_miss_duration_us counter
+nv_cache_miss_duration_us{model="resnet50"} 4.5678901e+08
+
+# HELP nv_server_live Indicates if the inference server is live (1) or not (0)
+# TYPE nv_server_live gauge
+nv_server_live 1
+
+# HELP nv_server_ready Indicates if the inference server is ready (1) or not (0)
+# TYPE nv_server_ready gauge
+nv_server_ready 1
+
+# HELP nv_server_request_success Total successful inference requests across all models
+# TYPE nv_server_request_success counter
+nv_server_request_success 15234
+
+# HELP nv_server_request_failure Total failed inference requests across all models
+# TYPE nv_server_request_failure counter
+nv_server_request_failure 12

@@ -1,0 +1,27 @@
+A standard 3D printed container made from common filaments like PLA or PETG is not reliably safe for storing hot engine oil at 100°C; stronger, specialist filaments such as ABS, nylon (PA12), PPS, PEEK, or ULTEM are required for both temperature and chemical resistance.
+
+Filament Material Considerations
+ABS: Can withstand up to 100°C and has reasonable oil resistance, making it one of the more accessible FDM filaments for this purpose, though its chemical resistance is not absolute.
+
+Nylon (PA12): Offers excellent resistance to engine oil and high temperatures, used in automotive settings, but is more difficult to print and absorbs water, which may affect integrity over time.
+
+PPS, PEEK, PEKK, ULTEM: These advanced engineering thermoplastics provide superior heat and chemical resistance. They are suitable for prolonged exposure to engine oil at high temperatures, but require industrial printers and are costly.
+
+PETG: Has high oil resistance but its glass transition temperature is around 70-80°C, so it may deform at 100°C and is therefore unsafe for long-term exposure to hot engine oil.
+
+PLA: Chemically resistant but deforms well below 100°C and is not recommended for hot oil applications.
+
+Oil and Chemical Resistance
+Materials such as PETG, CF-PETG, PA12, PPS, PEEK, and ULTEM are noted for high oil resistance and minimal swelling or deformation when exposed to engine oil.
+
+Common filaments like PLA absorb oil, may degrade mechanically, and soften when hot; long-term reliability is poor in hot engine oil environments.
+
+Practical Recommendations
+For hobbyist and low-end printers, ABS is the minimum viable option, but even then, only for short-term use and with careful monitoring.
+
+Industrial-grade filaments (such as PA12, PPS, PEEK, ULTEM) provide reliable performance, but require specialized equipment to print.
+
+Ensure thick walls, 100% infill, and robust design if using any filament near its operational limits.
+
+Conclusion
+For reliable, safe storage of hot engine oil at 100°C in a 3D printed container, avoid consumer-level materials (PLA, PETG). Use ABS for short durations with caution, or opt for high-performance materials—ideally PA12, PPS, PEEK, or ULTEM—for best chemical and thermal resistance.

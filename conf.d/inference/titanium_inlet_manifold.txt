@@ -1,0 +1,29 @@
+Titanium can work, but it is not ideal as the primary fixing choice for an inlet manifold into an aluminium head; conventional high‑tensile steel (or studs with nuts) is usually preferable, with titanium only making sense for niche weight‑saving builds and with proper precautions.
+
+Key technical points
+Thermal expansion mismatch: Aluminium has a coefficient of thermal expansion around 22–23×10^−6 /°C, while common titanium alloys are around 8.6–9.3×10^−6 /°C. As the engine heats, the aluminium head and manifold grow more than the titanium bolt, increasing clamp load and local thread stress in the aluminium, which can promote thread pull‑out if you run close to yield or with marginal engagement.
+
+Galvanic corrosion: Titanium is more noble than aluminium, so in the presence of an electrolyte the aluminium will preferentially corrode at the interface. This is manageable on a car if you:
+
+Use a good high‑temperature anti‑seize/assembly paste on the threads and under the head.
+
+Avoid long service intervals in harsh, salty environments.
+In typical automotive use, galvanic issues are much less severe than, say, titanium against carbon in marine service, but they are not zero.
+
+Strength and stiffness: Grade 5 Ti (Ti‑6Al‑4V) has ultimate tensile strength in the same ballpark as high‑strength steel, but a lower modulus, so it stretches more for a given load. That can be beneficial for maintaining preload if torqued correctly, but the limiting factor in an aluminium head is usually the female thread, not the bolt strength; going to titanium does not fix weak aluminium threads and can make over‑torque more tempting.
+
+Industry practice: OEMs almost universally use steel bolts or, preferably, steel studs screwed into aluminium heads, with nuts on the manifold side. Studs minimize thread wear in the head and tolerate repeated removal better; brass or plated steel nuts are commonly used to reduce galling and ease future disassembly.
+
+Practical guidance
+If you decide to use titanium fasteners for the inlet manifold into an aluminium head:
+
+Ensure adequate thread engagement in the head (at least 1–1.5 × major diameter in aluminium) and stay conservative on torque, ideally using torque based on tested friction factors for your chosen anti‑seize.
+​
+
+Always use a high‑temp anti‑seize or suitable assembly compound on threads and under the bolt head/washers to reduce galling and galvanic activity.
+
+Consider using titanium studs into the head with coated steel or brass nuts on the manifold side so the aluminium threads see only one installation and removal cycle.
+
+For most engines, high‑grade steel studs/bolts with proper anti‑seize remain the most robust and cost‑effective solution, with negligible real‑world performance penalty compared to titanium.
+
+If you share the specific engine, boost level, and manifold design, I can suggest more concrete torque and hardware choices.

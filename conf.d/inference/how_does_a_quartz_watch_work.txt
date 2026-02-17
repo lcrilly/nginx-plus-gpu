@@ -1,0 +1,31 @@
+A quartz watch uses a battery and a vibrating quartz crystal to create an extremely regular electrical “beat,” then turns that into the familiar ticking of the hands.
+
+Core idea
+The battery sends a small current into an electronic circuit that includes a tiny quartz crystal cut like a tuning fork.
+
+Because of the piezoelectric effect, the crystal vibrates at a very stable natural frequency when energized, typically 32,768 times per second.
+
+The circuit counts these vibrations and turns every 32,768th vibration into one precise pulse per second.
+
+From crystal to ticking hands
+Each 1‑second pulse drives a small stepping motor, which converts the electrical pulse into a tiny rotational movement.
+
+That motor turns a gear train (dial train), which reduces the speed and moves the second, minute, and hour hands on the dial.
+
+The result is the characteristic one‑tick‑per‑second motion of the second hand in most quartz analog watches.
+
+Why quartz is accurate
+Quartz’s vibration frequency is very stable with temperature and time, so the “clock” inside the watch hardly drifts.
+​
+
+Since the frequency is a power of two (32,768 = 2^15), the electronics can use a simple chain of divide‑by‑2 stages to derive exactly 1 Hz (one pulse per second) with minimal error.
+
+Digital quartz watches
+In a digital quartz watch, the same 1‑second (and higher‑frequency) pulses are used directly by digital counters and a display driver instead of a stepping motor and gears.
+​
+
+The display (LCD or LED) shows hours, minutes, and seconds by counting those pulses electronically rather than moving hands.
+​
+
+In short: the quartz crystal is the timekeeper, the electronics count its vibrations, and a motor plus gears (or digital counters) turn that into the time you read.
+
